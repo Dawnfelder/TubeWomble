@@ -1,0 +1,12 @@
+
+
+
+
+.box {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(234, 234, 234, 0.9);
+    border-radius: 10px;
+    display: flex;
+}
+

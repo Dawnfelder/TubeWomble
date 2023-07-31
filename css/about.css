@@ -1,0 +1,64 @@
+.box {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(234, 234, 234, 0.9);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.box img {
+    height: 300px;
+    width: auto;
+    padding: 40px;
+}
+
+.box .about-text-container h1, h2, h3 {
+    margin: 0px 40px 0px 40px;
+}
+
+.box .about-text-container h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.box .about-text-container h2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.box #go-button-container {
+    width: 80%;
+    max-width: 410px;
+    margin: 40px;
+}
+
+.box #go-button-container button {
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #f5f5f5;  
+}
+
+button:hover {
+    color: rgb(237, 23, 3);
+    border-color: rgb(237, 23, 3);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.fa-brands {
+    font-size: 2rem;
+    padding: 1rem;
+    color: black;
+}
+
+.fa-brands:hover{
+    cursor: pointer;
+    color:rgb(237, 23, 3);
+}
